@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+coverage/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Backup dan log
+*.bak
+*.backup
+*.old
+*.tmp
+*.log
+
+# Sistem
+.DS_Store
+Thumbs.db

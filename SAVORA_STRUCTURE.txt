@@ -1,0 +1,218 @@
+﻿==========================================
+SAVORA - PROJECT STRUCTURE
+==========================================
+Project  : D:\khadisah\savora
+Updated  : 2026-11-11 02:17:41
+==========================================
+
+[FILE] .gitignore (0.05 KB)
+[FILE] next.config.ts (0.2 KB)
+[FILE] next-env.d.ts (0.26 KB)
+[FILE] package.json (0.57 KB)
+[FILE] postcss.config.mjs (0.05 KB)
+[DIR] public
+    [DIR] icons
+        [FILE] .gitkeep (0 KB)
+    [DIR] images
+        [DIR] farmer
+            [FILE] banana.webp (218.54 KB)
+            [FILE] cabai.webp (36.25 KB)
+            [FILE] farmer-hero.webp (180.94 KB)
+            [FILE] farm-landscape.webp (238.73 KB)
+            [FILE] jagung.webp (42.05 KB)
+            [FILE] kangkung.webp (222.31 KB)
+            [FILE] kentang.webp (33.13 KB)
+            [FILE] kol.webp (218.83 KB)
+            [FILE] pakcoy.webp (43.12 KB)
+            [FILE] sprout-tips.webp (74.96 KB)
+            [FILE] terong.webp (154.74 KB)
+            [FILE] tomato.webp (216.73 KB)
+            [FILE] vegetable-crate.webp (107.98 KB)
+            [FILE] wortel.webp (273.4 KB)
+        [DIR] illustrations
+            [FILE] .gitkeep (0 KB)
+        [DIR] logo
+            [FILE] .gitkeep (0 KB)
+            [FILE] logo.png (557.58 KB)
+            [FILE] logo.svg (743.63 KB)
+            [FILE] logo-icon.png (204.27 KB)
+            [FILE] logo-icon.svg (272.54 KB)
+            [FILE] logo-white.png (300 KB)
+            [FILE] logo-white.svg (400.18 KB)
+        [DIR] onboarding
+            [FILE] onboarding-1.webp (355.11 KB)
+            [FILE] onboarding-2.webp (357.72 KB)
+            [FILE] onboarding-3.webp (318.72 KB)
+[FILE] README.md (1.49 KB)
+[DIR] src
+    [DIR] app
+        [DIR] (admin)
+            [DIR] admin
+                [DIR] dashboard
+                    [FILE] page.tsx (0.15 KB)
+                [DIR] finance
+                    [FILE] page.tsx (0.16 KB)
+                [FILE] layout.tsx (0.47 KB)
+                [DIR] logistics
+                    [FILE] page.tsx (0.16 KB)
+                [DIR] orders
+                    [FILE] page.tsx (0.16 KB)
+                [DIR] reports
+                    [FILE] page.tsx (0.16 KB)
+                [DIR] settings
+                    [FILE] page.tsx (0.16 KB)
+                [DIR] surplus
+                    [FILE] page.tsx (0.16 KB)
+                [DIR] users
+                    [FILE] page.tsx (0.15 KB)
+                [DIR] verification
+                    [FILE] page.tsx (0.16 KB)
+        [DIR] (auth)
+            [DIR] callback
+                [FILE] page.tsx (3.2 KB)
+            [DIR] forgot-password
+                [FILE] page.tsx (0.16 KB)
+            [DIR] login
+                [FILE] page.tsx (6 KB)
+            [DIR] pending
+                [FILE] page.tsx (4.46 KB)
+            [DIR] register
+                [FILE] page.tsx (9.64 KB)
+            [DIR] reset-password
+                [FILE] page.tsx (0.16 KB)
+        [DIR] (courier)
+            [DIR] courier
+                [DIR] dashboard
+                    [FILE] page.tsx (0.16 KB)
+                [DIR] history
+                    [FILE] page.tsx (0.16 KB)
+                [FILE] layout.tsx (0.47 KB)
+                [DIR] navigation
+                    [FILE] page.tsx (0.16 KB)
+                [DIR] profile
+                    [FILE] page.tsx (0.16 KB)
+                [DIR] tasks
+                    [DIR] [id]
+                        [FILE] page.tsx (0.16 KB)
+                    [FILE] page.tsx (0.15 KB)
+        [DIR] (farmer)
+            [DIR] farmer
+                [DIR] dashboard
+                    [FILE] page.tsx (19.67 KB)
+                [FILE] layout.tsx (0.47 KB)
+                [DIR] pickups
+                    [FILE] page.tsx (1.55 KB)
+                [DIR] profile
+                    [FILE] page.tsx (1.88 KB)
+                [DIR] surplus
+                    [DIR] [id]
+                        [DIR] edit
+                            [FILE] page.tsx (0.71 KB)
+                    [DIR] new
+                        [FILE] page.tsx (0.13 KB)
+                    [FILE] page.tsx (1.54 KB)
+                [DIR] transactions
+                    [FILE] page.tsx (1.58 KB)
+        [DIR] (processor)
+            [DIR] processor
+                [DIR] dashboard
+                    [FILE] page.tsx (0.16 KB)
+                [FILE] layout.tsx (0.48 KB)
+                [DIR] marketplace
+                    [DIR] [id]
+                        [FILE] page.tsx (0.17 KB)
+                    [FILE] page.tsx (0.16 KB)
+                [DIR] orders
+                    [DIR] [id]
+                        [FILE] page.tsx (0.16 KB)
+                    [FILE] page.tsx (0.16 KB)
+                [DIR] profile
+                    [FILE] page.tsx (0.16 KB)
+                [DIR] requirements
+                    [DIR] new
+                        [FILE] page.tsx (0.17 KB)
+                    [FILE] page.tsx (0.16 KB)
+        [DIR] (public)
+            [DIR] about
+                [FILE] page.tsx (0.15 KB)
+            [DIR] how-it-works
+                [FILE] page.tsx (0.16 KB)
+            [DIR] onboarding
+                [FILE] layout.tsx (0.15 KB)
+                [FILE] page.tsx (0.38 KB)
+            [FILE] page.tsx (17.13 KB)
+        [DIR] api
+            [DIR] ai
+                [DIR] chat
+                    [FILE] route.ts (0.16 KB)
+            [DIR] logistics
+                [FILE] route.ts (0.15 KB)
+            [DIR] orders
+                [FILE] route.ts (0.15 KB)
+            [DIR] payments
+                [DIR] webhook
+                    [FILE] route.ts (0.15 KB)
+            [DIR] surplus
+                [FILE] route.ts (0.15 KB)
+        [FILE] globals.css (0.16 KB)
+        [FILE] layout.tsx (0.26 KB)
+    [DIR] components
+        [DIR] chatbot
+            [FILE] ChatbotWidget.tsx (1.11 KB)
+        [DIR] layouts
+            [FILE] .gitkeep (0 KB)
+            [FILE] DashboardShell.tsx (11.06 KB)
+        [DIR] logistics
+            [FILE] .gitkeep (0 KB)
+            [FILE] FarmerPickupBoard.tsx (19.16 KB)
+        [DIR] marketplace
+            [FILE] .gitkeep (0 KB)
+            [FILE] FarmerSurplusCatalog.tsx (18.42 KB)
+            [FILE] FarmerTransactionBoard.tsx (22.89 KB)
+        [DIR] onboarding
+            [FILE] OnboardingSlides.tsx (9.82 KB)
+            [FILE] README.md (0.18 KB)
+        [DIR] shared
+            [FILE] .gitkeep (0 KB)
+            [FILE] AuthShell.tsx (3.93 KB)
+            [FILE] FarmerProfileForm.tsx (27.41 KB)
+            [FILE] RoleDashboard.tsx (4.74 KB)
+            [FILE] RoleSwitcher.tsx (3.05 KB)
+            [FILE] SurplusForm.tsx (12.14 KB)
+        [DIR] ui
+            [FILE] .gitkeep (0 KB)
+    [DIR] config
+        [FILE] .gitkeep (0 KB)
+        [FILE] onboarding.ts (1.34 KB)
+    [DIR] db
+        [DIR] migrations
+            [FILE] .gitkeep (0 KB)
+    [DIR] hooks
+        [FILE] .gitkeep (0 KB)
+    [DIR] lib
+        [DIR] ai
+            [FILE] .gitkeep (0 KB)
+        [DIR] auth
+            [FILE] .gitkeep (0 KB)
+            [FILE] require-role.ts (1.17 KB)
+            [FILE] roles.ts (0.96 KB)
+        [DIR] supabase
+            [FILE] .gitkeep (0 KB)
+            [FILE] client.ts (0.41 KB)
+            [FILE] server.ts (0.77 KB)
+        [DIR] utils
+            [FILE] .gitkeep (0 KB)
+    [FILE] middleware.ts (1.57 KB)
+    [DIR] services
+        [FILE] .gitkeep (0 KB)
+    [DIR] types
+        [FILE] .gitkeep (0 KB)
+        [FILE] surplus.ts (1.36 KB)
+[FILE] tsconfig.json (0.44 KB)
+
+==========================================
+PROJECT SUMMARY
+==========================================
+Total Folders : 86
+Total Files   : 118
+==========================================
